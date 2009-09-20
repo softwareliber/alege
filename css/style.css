@@ -80,6 +80,69 @@ ul#meniu li:hover{
     height: 40px;
 }
 
+#corp ul.blocuri > li{
+    float: left;
+    list-style: none;
+    border-left: 1px solid #ddd;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#corp ul.simplu > li{
+    border: none;
+}
+
+#corp ul.blocuri > li.primul{
+    border-left: none;
+}
+
+#corp ul.blocuri > li.primul{
+    padding-left: 0px;
+}
+
+#corp ul.doua > li{
+    width: 45%;
+}
+
+#corp ul.trei > li{
+    width: 30%;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.dialog span.clear{
+    clear: both;
+    display: block;
+    height: 1px;
+}
+
+.dialog span.bordura_sus{
+    border-top: 1px solid #ddd;
+}
+
+.dialog ul.blocuri li .polaroid{
+    padding: 5px;
+    border: 1px solid #eee;
+    box-shadow: 2px 2px 2px #ddd;
+    -moz-box-shadow: 2px 2px 2px #ddd;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.dialog a img{
+    border: none;
+}
+
+img.left{
+    float: left;
+    padding: 5px;
+}
+
+img.right{
+    float: right;
+    padding: 5px;
+}
+
 #coada{
     background: #eee url("/img/footer.repeta.jpg") repeat-x scroll top;
     height: 148px;
@@ -117,7 +180,7 @@ a:hover, a:active {
     color: #7C9F3B;
 }
 
-a h2#slogan{
+h2#slogan{
     font-size: 32px;
     font-weight: normal;
     letter-spacing: -1px;
@@ -136,17 +199,6 @@ ul#meniu li a{
     text-transform: uppercase;
 }
 
-img.left{
-    float: left;
-    padding: 5px;
-}
-
-img.right{
-    float: right;
-    padding: 5px;
-}
-
-
 .dialog span.hl{
     background-color: #FFFFCC;
     font-style: italic;
@@ -160,16 +212,48 @@ img.right{
     color: #4F8A10;
 }
 
-.dialog span.clear{
-    clear: both;
+.dialog ul.blocuri li .polaroid{
+    font-size: 10px;
+    text-align: center;
+}
+
+.dialog ul.blocuri > li h3{
+    text-align: center;
+}
+
+.dialog ul.blocuri li ul.text{
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.dialog ul.blocuri li img{
     display: block;
-    height: 1px;
+    margin: 0 auto;
 }
 
-.dialog a img{
-    border: none;
+.dialog ul.blocuri li h4{
+    margin: 5px 0;
+    text-align: center;
 }
 
+.dialog ul.blocuri li.rosu, .dialog ul.blocuri li.verde{
+    text-align: center;
+    font-size: 50px;
+    margin: 40px 0;
+}
+
+.dialog ul.blocuri li.rosu {
+    color: #D8000C;
+}
+
+.dialog ul.blocuri li.verde {
+    color: #4F8A10;
+}
+
+.dialog ul.blocuri li span.mare{
+    font-size: 90px;
+}
 
 /* Bubble */
 #corp div.dialog {
