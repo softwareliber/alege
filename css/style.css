@@ -1,0 +1,203 @@
+/*
+Proiectul Alege.SoftwareLiber.ro
+Septembrie 2009
+Licența: BSD
+Www: http://proiecte.softwareliber.ro/projects/alege
+E-mail: salut[la]softwareliber[punct]ro
+Credits: Inspired from pidgin.im!
+Color pallete: http://www.colourlovers.com/palette/141213/cynical_harvest
+*/
+
+/* Layout */
+body{
+    background: #fff url("/img/body.repeta.jpg") repeat-x 0 30px;
+    margin: 0;
+    padding: 0;
+}
+
+#cap {
+    height: 150px;
+}
+
+h2#slogan{
+    position: relative;
+    top: 20px;
+    left: 33%;
+    width: 400px;
+}
+
+img#tux{
+    display: block;
+    position: relative;
+    top: -80px;
+    left: 20%;
+    border: none;
+}
+
+ul#meniu{
+    display: block;
+    width: 450px;
+    position: relative;
+    top: -162px;
+    left:30%;
+}
+
+ul#meniu li{
+    float: left;
+    list-style: none;
+}
+
+ul#meniu li:first-child{
+    border-left: 1px solid #fff;
+}
+
+ul#meniu li{
+    border-right: 1px solid #fff;
+}
+
+ul#meniu li a{
+    line-height: 39px;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 1px solid #7C9F3B;
+}
+
+ul#meniu li:hover{
+    background-color: #9AB85B;
+}
+
+#corp{
+    height: 400px;
+    width: 800px;
+    overflow: hidden;
+    margin: 0px auto;
+    margin-bottom: -60px;
+}
+
+#corp .parcare{
+    display: block;
+    height: 40px;
+}
+
+#coada{
+    background: #eee url("/img/footer.repeta.jpg") repeat-x scroll top;
+    height: 148px;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+
+#coada .continut{
+    width: 800px;
+    margin: 115px auto;
+    font-size: 10px;
+}
+
+#liber{
+    margin: 0;
+    padding: 0;
+    float: right;
+    position: relative;
+    bottom: 80px;
+}
+
+/* Typogrphy */
+body{
+    font-family: sans-serif;
+    color: #3E4142;
+    font-size: 12px;
+}
+
+a:link, a:visited{
+    color: #9AB85B;
+}
+
+a:hover, a:active {
+    color: #7C9F3B;
+}
+
+a h2#slogan{
+    font-size: 32px;
+    font-weight: normal;
+    letter-spacing: -1px;
+    color: #7C9F3B;
+    text-decoration: none;
+}
+
+#cap a.legatura {
+    color: #7C9F3B;
+    text-decoration: none;
+}
+
+ul#meniu li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+img.left{
+    float: left;
+    padding: 5px;
+}
+
+img.right{
+    float: right;
+    padding: 5px;
+}
+
+
+.dialog span.hl{
+    background-color: #FFFFCC;
+    font-style: italic;
+}
+
+.dialog span.bad{
+    color: #D8000C;
+}
+
+.dialog span.good{
+    color: #4F8A10;
+}
+
+.dialog span.clear{
+    clear: both;
+    display: block;
+    height: 1px;
+}
+
+.dialog a img{
+    border: none;
+}
+
+
+/* Bubble */
+#corp div.dialog {
+    margin: 0;
+    margin-bottom: 90px;
+    padding: 0;
+    border: 1px solid #ddd;
+    width: 700px;
+    background: #fff;
+    padding: 25px;
+    position: relative;
+    box-shadow: 5px 5px 5px #ddd;
+    -moz-box-shadow: 5px 5px 5px #ddd;
+    -moz-border-radius: 1em;
+    border-radius: 1em;
+}
+
+#corp div.dialog .arrow {
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border-top: 40px solid transparent;
+    border-left: none;
+    border-right: 40px solid #fff;
+    position: absolute;
+    top: -40px;
+    left: 30px;
+    box-shadow: 2px 0px 0px 0px #ddd;
+    -moz-box-shadow: 2px 0px 0px 0px #ddd;
+}
+
