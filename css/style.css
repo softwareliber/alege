@@ -8,6 +8,9 @@ Credits: Inspired from pidgin.im!
 Color pallete: http://www.colourlovers.com/palette/141213/cynical_harvest
 */
 
+/* Reset */
+@import url("reset-min.css");
+
 /* Layout */
 body{
     background: #fff url("/img/body.repeta.jpg") repeat-x 0 30px;
@@ -17,29 +20,28 @@ body{
 
 #cap {
     height: 150px;
+    width: 800px;
+    margin: 0 auto;
 }
 
 h2#slogan{
-    position: relative;
-    top: 20px;
-    left: 33%;
+    padding-top: 40px;
+    margin-left: 150px;
     width: 400px;
 }
 
 img#tux{
     display: block;
-    position: relative;
-    top: -80px;
-    left: 20%;
+    margin-top: -70px;
+    margin-left: 0;
     border: none;
 }
 
 ul#meniu{
     display: block;
     width: 450px;
-    position: relative;
-    top: -162px;
-    left:30%;
+    margin-top: -67px;
+    margin-left: 150px;
 }
 
 ul#meniu li{
@@ -172,6 +174,50 @@ body{
     font-size: 12px;
 }
 
+h2,h3,h4 { 
+    font-weight:normal;
+    clear:both;
+}
+
+h3{
+    font-size: 16px;
+    letter-spacing: -1px;
+}
+
+h4{
+    font-size: 14px;
+    letter-spacing: -1px;
+}
+
+p {
+    margin-bottom:9px;
+    margin-top:9px;
+}
+ul {
+    margin: 0 0 18px 1.5em;
+}
+ol {
+    margin: 0 0 18px 3em;
+}
+ul {
+    list-style:disc;
+}
+ol {
+    list-style-type: decimal;
+}
+ol ol {
+    list-style:upper-alpha;
+}
+ol ol ol {
+    list-style:lower-roman;
+}
+ol ol ol ol {
+    list-style:lower-alpha;
+}
+ul ul, ol ol, ul ol, ol ul {
+    margin-bottom:0;
+}
+
 a:link, a:visited{
     color: #9AB85B;
 }
@@ -217,8 +263,20 @@ ul#meniu li a{
     text-align: center;
 }
 
+.dialog ul.blocuri li .polaroid a img{
+    border: 4px solid #ddd;
+}
+
+.dialog ul.blocuri li .polaroid a:hover img{
+    border: 4px solid #aaa;
+}
+
 .dialog ul.blocuri > li h3{
     text-align: center;
+}
+
+.dialog ul.blocuri li ul li{
+    list-style: disc;
 }
 
 .dialog ul.blocuri li ul.text{
@@ -285,3 +343,6 @@ ul#meniu li a{
     -moz-box-shadow: 2px 0px 0px 0px #ddd;
 }
 
+#corp div.ultimul {
+    margin-bottom: 170px;
+}
