@@ -228,10 +228,10 @@ a:hover, a:active {
 
 textarea.larg{
     width: 100%;
-    height: 40px;
+    height: 30px;
     overflow: hidden;
-    font-size: 10px;
-    padding: 5px;
+    font-size: 8px;
+    padding: 1px;
 }
 
 h2#slogan{
