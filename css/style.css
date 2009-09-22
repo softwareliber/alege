@@ -39,7 +39,7 @@ img#tux{
 
 ul#meniu{
     display: block;
-    width: 450px;
+    width: 470px;
     margin-top: -67px;
     margin-left: 150px;
 }
@@ -49,7 +49,7 @@ ul#meniu li{
     list-style: none;
 }
 
-ul#meniu li:first-child{
+ul#meniu li:first-child {
     border-left: 1px solid #fff;
 }
 
@@ -65,7 +65,7 @@ ul#meniu li a{
     border-left: 1px solid #7C9F3B;
 }
 
-ul#meniu li:hover{
+ul#meniu li:hover {
     background-color: #9AB85B;
 }
 
@@ -120,6 +120,9 @@ ul#meniu li:hover{
 
 .dialog span.bordura_sus{
     border-top: 1px solid #ddd;
+    clear: both;
+    display: block;
+    font-size: 1px;
 }
 
 .dialog ul.blocuri li .polaroid{
@@ -172,6 +175,10 @@ body{
     font-family: sans-serif;
     color: #3E4142;
     font-size: 12px;
+}
+
+strong{
+    font-weight: bold;
 }
 
 h2,h3,h4 { 
@@ -285,6 +292,15 @@ ul#meniu li a{
 
 .dialog ul.blocuri li ul li{
     list-style: disc;
+}
+
+.dialog ul.blocuri li ol{
+    margin-left: 0;
+}
+
+.dialog ul.blocuri li ol li{
+    list-style: disc;
+    list-style: inside;
 }
 
 .dialog ul.blocuri li ul.text{

@@ -7,13 +7,13 @@
     <link rel="shortcut icon" href="http://softwareliber.ro/favicon.png" type="image/png" />
     <link rel="stylesheet" href="/css/style.css" type="text/css" />
     <link rel="stylesheet" href="/css/jquery.fancybox.css" type="text/css" />
-    <!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.style.css" type="text/css"> <![endif]-->
+    <!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.style.css" type="text/css"><![endif]-->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
     <script type="text/javascript" src="/js/jquery.fancybox-1.2.1.pack.js"></script>
     <script type="text/javascript" src="/js/jquery.scrollTo-min.js"></script>
     <script type="text/javascript" src="/js/jquery.localscroll-min.js"></script>
     <script type="text/javascript">
-        $(document).ready(function() {
+        $(document).ready(function(){
             $.localScroll({
                 target: '#corp',
                 queue:true,
@@ -51,26 +51,30 @@
             <ul class="doua blocuri">
                 <li class="primul">
                     <h3>De ce?</h3>
-                    <p>
-                        <img src="/img/dece.png" alt="dece" class="left" />
-                        Pentru că <span class="hl">fiecare calculator are nevoie de un sistem de operare</span>,
-                        de un mediu care să ne permită folosirea și gestionarea resurselor calculatorului.
-                        Fără un sistem de operare, un calculator nu este altceva decât o adunătură de metal.
-                    </p>
-                    <p>
-                        <span class="hl">Acesta</span> cu siguranță nu va putea rula filme, reproduce sunete sau oferi conexiunea la internet.
-                        Sistemele de operare în sine reprezintă <span class="hl">o colecție de aplicații integrate perfect</span>
-                        pentru a rezolva problemele listate mai sus, și nu doar.
-                    </p>
-                    <p>
-                        
-                    </p>
+                    <img src="/img/dece.png" alt="dece" class="left" />
+                    <ol>
+                        <li>
+                            Pentru că <span class="hl">fiecare calculator are nevoie de un sistem de operare</span>,
+                            de un mediu care să ne permită folosirea și gestionarea resurselor calculatorului.
+                        </li>
+                        <li>
+                            Fără un sistem de operare, un calculator nu este altceva decât o adunătură de metal.
+                        </li>
+                        <li>
+                            <span class="hl">Calculatorul</span> cu siguranță nu va putea rula filme,
+                            reproduce sunete sau oferi conexiunea la internet fără un sistem de operare.
+                        </li>
+                        <li>
+                            Sistemele de operare în sine reprezintă <span class="hl">o colecție de programe integrate perfect</span>
+                            pentru a rezolva problemele listate mai sus, și nu doar.
+                        </li>
+                    </ol>
                 </li>
                 <li>
                     <h3>Dilema</h3>
                     <p>
                         <img src="/img/os.png" alt="OS" class="right" />
-                        Sistemele de operare ca și oricare alte aplicații pot fi obținute prin <span class="hl good">cumpărare</span>, <span class="hl good">descărcare legală</span>,
+                        Sistemele de operare ca și oricare alte programe pot fi obținute prin <span class="hl good">cumpărare</span>, <span class="hl good">descărcare legală</span>,
                         sau <span class="hl bad">piraterie</span>.
                     </p>
                     <p>
@@ -102,28 +106,28 @@
                 <li class="primul">
                     <h3><a href="http://ubuntu.ro/obtineubuntu">Ubuntu Linux</a></h3>
                     <p class="polaroid">
-                        <a href="/img/captura_ubuntu.png" title="O captură a mediului de lucru cu aplicații pentru birou în Ubuntu Linux">
+                        <a href="/img/captura_ubuntu.png" title="O captură a mediului de lucru cu programe pentru birou în Ubuntu Linux">
                             <img src="/img/captura_mini_ubuntu.png" alt="Ubuntu Linux" />
                         </a>
-                        O captură a mediului de lucru cu aplicații pentru birou în Ubuntu Linux.
+                        O captură a mediului de lucru cu programe pentru birou în Ubuntu Linux.
                     </p>
                 </li>
                 <li>
                     <h3><a href="http://www.fedoraproject.ro/download">Fedora Linux</a></h3>
                     <p class="polaroid">
-                        <a href="/img/captura_fedora.png" title="O captură a mediului de lucru cu aplicații pentru internet în Fedora Linux">
+                        <a href="/img/captura_fedora.png" title="O captură a mediului de lucru cu programe pentru internet în Fedora Linux">
                             <img src="/img/captura_mini_fedora.png" alt="Fedora Linux" />
                         </a>
-                        O captură a mediului de lucru cu aplicații pentru internet în Fedora Linux.
+                        O captură a mediului de lucru cu programe pentru internet în Fedora Linux.
                     </p>
                 </li>
                 <li>
                     <h3><a href="http://software.opensuse.org/">openSUSE Linux</a></h3>
                     <p class="polaroid">
-                        <a href="/img/captura_suse.png" title="O captură a mediului de lucru cu aplicații media în openSUSE Linux">
+                        <a href="/img/captura_suse.png" title="O captură a mediului de lucru cu programe media în openSUSE Linux">
                             <img src="/img/captura_mini_suse.png" alt="openSUSE Linux" />
                         </a>
-                        O captură a mediului de lucru cu aplicații media în openSUSE Linux.
+                        O captură a mediului de lucru cu programe media în openSUSE Linux.
                     </p>
                 </li>
             </ul>
@@ -131,7 +135,7 @@
             <p>
                 Legăturile de mai sus vor duce direct la pagina oficială, de unde pot fi descărcate sistemele de operare.
                 <br />
-                Aceste surse <span class="hl good">sunt verificate și recomandate</span> de noi!
+                <strong>Aceste surse <span class="hl good">sunt verificate și recomandate</span> de noi!</strong>
             </p>
             <span class="clear" />
             <span class="arrow" />
@@ -147,7 +151,7 @@
                         <li>poți descărca personal sau oferi oricărei persoane un sistem de operare fără compromisuri</li>
                         <li>poți folosi aceeași versiune de câte ori ai nevoie</li>
                         <li>noile versiuni le poți influența chiar tu</li>
-                        <li>primești accesul la codul sursă din spatele aplicațiilor</li>
+                        <li>primești accesul la codul sursă din spatele programelor</li>
                     </ul>
                 </li>
                 <li>
@@ -155,7 +159,7 @@
                     <h4>Securitate</h4>
                     <ul class="text">
                         <li>sistemul de operare GNU/Linux, a fost și este imun la viruși</li>
-                        <li>având acces la codul sursă poți analiza și modifica aplicațiile exact cum îți dorești</li>
+                        <li>având acces la codul sursă poți analiza și modifica programele exact cum îți dorești</li>
                         <li>dezvoltarea și lansarea noilor versiuni este o activitate continuă și dinamică desfășurată la nivel global</li>
                     </ul>
                 </li>
@@ -163,8 +167,8 @@
                     <img src="/img/productivitate.png" alt="Productivitate" />
                     <h4>Productivitate</h4>
                     <ul class="text">
-                        <li>un număr mare de aplicații (peste 20.000 de pachete) pot fi folosite în orice moment</li>
-                        <li>aplicațiile sunt în continuă dezvoltare și reprezintă diferite domenii</li>
+                        <li>un număr mare de programe (peste 20.000 de pachete) pot fi folosite în orice moment</li>
+                        <li>programele sunt în continuă dezvoltare și reprezintă diferite domenii</li>
                         <li>pentru confortul utilizatorilor de rând, lucrează designeri, ingineri și consultanți din toată lumea</li>
                         <li>documentația și suportul sunt gratuite pe forumuri și liste de discuții în limba română</li>
                     </ul>
