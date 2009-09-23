@@ -150,7 +150,7 @@ img.right{
 
 #coada{
     background: #eee url("/img/footer.repeta.jpg") repeat-x scroll top;
-    height: 148px;
+    height: 100%;
     width: 100%;
     overflow: hidden;
     margin: 0;
