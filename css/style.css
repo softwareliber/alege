@@ -128,10 +128,12 @@ ul#meniu li:hover {
 .dialog ul.blocuri li .polaroid{
     padding: 5px;
     border: 1px solid #eee;
+    border-radius: 3px;
     box-shadow: 2px 2px 2px #ddd;
     -moz-box-shadow: 2px 2px 2px #ddd;
     -moz-border-radius: 3px;
-    border-radius: 3px;
+    -webkit-box-shadow: 2px 2px 2px #ddd;
+    -webkit-border-radius: 3px;
 }
 
 .dialog a img{
@@ -347,9 +349,11 @@ ul#meniu li a{
     padding: 25px;
     position: relative;
     box-shadow: 5px 5px 5px #ddd;
+    border-radius: 1em;
     -moz-box-shadow: 5px 5px 5px #ddd;
     -moz-border-radius: 1em;
-    border-radius: 1em;
+    -webkit-box-shadow: 5px 5px 5px #ddd;
+    -webkit-border-radius: 1em;
 }
 
 #corp div.dialog .arrow {
@@ -364,6 +368,7 @@ ul#meniu li a{
     left: 30px;
     box-shadow: 2px 0px 0px 0px #ddd;
     -moz-box-shadow: 2px 0px 0px 0px #ddd;
+    -webkit-box-shadow: 2px 0px 0px 0px #ddd;
 }
 
 #corp div.ultimul {

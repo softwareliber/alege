@@ -1,21 +1,5 @@
 // La finișarea încărcării paginii
 $(document).ready(function(){
-    // Încarcă navigarea fancy
-    $.localScroll({
-        target: '#corp',
-        queue:true,
-        hash:true,
-        duration:700
-    });
-    // Încarcă lightbox pentru poze
-    $(".polaroid a").fancybox({
-        imageScale:true,
-        hideOnContentClick:true,
-        centerOnScroll:false,
-        zoomSpeedIn: 300,
-        zoomSpeedOut: 300,
-        overlayShow:false
-    });
     // Funcția caută și înlocuiește diacriticele „greșite”
     $.fn.escapeDia = function() {
         this.each(function() {
@@ -33,4 +17,20 @@ $(document).ready(function(){
     if(navigator.platform == "Win32" || navigator.platform == "Win64") {
         $('body').escapeDia();
     }
+    // Încarcă navigarea fancy
+    $.localScroll({
+        target: '#corp',
+        queue:true,
+        hash:true,
+        duration:700
+    });
+    // Încarcă lightbox pentru poze
+    $(".polaroid a").fancybox({
+        imageScale:true,
+        hideOnContentClick:true,
+        centerOnScroll:false,
+        zoomSpeedIn: 300,
+        zoomSpeedOut: 300,
+        overlayShow:false
+    });
 });
