@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/css/style.css" type="text/css" />
     <link rel="stylesheet" href="/css/jquery.fancybox.css" type="text/css" />
     <!--[if IE]><link rel="stylesheet" href="/css/ie.style.css" type="text/css"><![endif]-->
+    <!--[if lt IE 8]><link rel="stylesheet" href="/css/legacy.ie.style.css" type="text/css" media="screen, projection" /><![endif]-->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
     <script type="text/javascript" src="/js/jquery.fancybox-1.2.1.pack.js"></script>
     <script type="text/javascript" src="/js/jquery.scrollTo-min.js"></script>
@@ -45,7 +46,7 @@
             <ul class="doua blocuri">
                 <li class="primul">
                     <h3>De ce?</h3>
-                    <img src="/img/dece.png" alt="dece" class="left" />
+                    <img src="/img/dece.png" alt="dece" width="48" class="left" />
                     <ol>
                         <li>
                             Pentru că <span class="hl">fiecare calculator are nevoie de un sistem de operare</span>,
@@ -67,7 +68,7 @@
                 <li>
                     <h3>Dilema</h3>
                     <p>
-                        <img src="/img/os.png" alt="OS" class="right" />
+                        <img src="/img/os.png" alt="OS" width="48" class="right" />
                         Sistemele de operare ca și oricare alte programe pot fi obținute prin <span class="hl good">cumpărare</span>, <span class="hl good">descărcare legală</span>,
                         sau <span class="hl bad">piraterie</span>.
                     </p>
@@ -93,39 +94,55 @@
         </div>
         
         <span id="solutii" class="parcare"></span>
-        <div class="dialog">
-            Fie că ai un calculator nou, sau mai vechi, una dintre soluțiile pe care le poți folosi ca sistem de operare,
-            se numește <strong>GNU/Linux</strong>. Acesta este oferit <span class="hl good">absolut gratuit</span>, și oferă toate funcționalitățile de care are nevoie un utilizator clasic.
-            <ul class="trei blocuri simplu">
+        <div class="dialog capturi">
+            <p>
+                Fie că ai un calculator nou, sau mai vechi, una dintre soluțiile pe care le poți folosi ca sistem de operare,
+                se numește <strong>GNU/Linux</strong>. Acesta este oferit <span class="hl good">absolut gratuit</span>, și oferă toate funcționalitățile de care are nevoie un utilizator clasic.
+            </p>
+            
+            <ul class="doua blocuri simplu capturi">
                 <li class="primul">
-                    <h3><a href="http://ubuntu.ro/obtineubuntu">Ubuntu Linux</a></h3>
-                    <p class="polaroid">
+                    <div class="polaroid">
                         <a href="/img/captura_ubuntu.png" title="O captură a mediului de lucru cu programe pentru birou în Ubuntu Linux">
-                            <img src="/img/captura_mini_ubuntu.png" alt="Ubuntu Linux" />
+                            <img src="/img/captura_mini_ubuntu.png" alt="Ubuntu Linux" class="left" />
                         </a>
-                        O captură a mediului de lucru cu programe pentru birou în Ubuntu Linux.
-                    </p>
+                        <h4><a href="http://ubuntu.ro/obtine/">Ubuntu Linux</a></h4>
+                        <p>O captură a mediului de lucru cu programe pentru birou în Ubuntu Linux.</p>
+                        <span class="clear"/>
+                    </div>
                 </li>
                 <li>
-                    <h3><a href="http://www.fedoraproject.ro/download">Fedora Linux</a></h3>
-                    <p class="polaroid">
+                    <div class="polaroid">
                         <a href="/img/captura_fedora.png" title="O captură a mediului de lucru cu programe pentru internet în Fedora Linux">
-                            <img src="/img/captura_mini_fedora.png" alt="Fedora Linux" />
+                            <img src="/img/captura_mini_fedora.png" alt="Fedora Linux" class="left" />
                         </a>
-                        O captură a mediului de lucru cu programe pentru internet în Fedora Linux.
-                    </p>
+                        <h4><a href="http://fedoraproject.org/ro/get-fedora">Fedora Linux</a></h4>
+                        <p>O captură a mediului de lucru cu programe pentru internet în Fedora Linux.</p>
+                        <span class="clear"/>
+                    </div>
                 </li>
                 <li>
-                    <h3><a href="http://software.opensuse.org/">openSUSE Linux</a></h3>
-                    <p class="polaroid">
+                    <div class="polaroid">
                         <a href="/img/captura_suse.png" title="O captură a mediului de lucru cu programe media în openSUSE Linux">
-                            <img src="/img/captura_mini_suse.png" alt="openSUSE Linux" />
+                            <img src="/img/captura_mini_suse.png" alt="openSUSE Linux" class="left" />
                         </a>
-                        O captură a mediului de lucru cu programe media în openSUSE Linux.
-                    </p>
+                        <h4><a href="http://software.opensuse.org/">openSUSE Linux</a></h4>
+                        <p>O captură a mediului de lucru cu programe media în openSUSE Linux.</p>
+                        <span class="clear"/>
+                    </div>
+                </li>
+                <li>
+                    <div class="polaroid">
+                        <a href="/img/captura_mandriva.png" title="O captură a mediului de lucru în Mandriva Linux">
+                            <img src="/img/captura_mini_mandriva.png" alt="Mandriva Linux" class="left" />
+                        </a>
+                        <h4><a href="http://www.mandrivausers.ro/node/5985">Mandriva Linux</a></h4>
+                        <p>O captură a mediului de lucru cu câteva programe din Mandriva Linux.</p>
+                        <span class="clear"/>
+                    </div>
                 </li>
             </ul>
-            <span class="bordura_sus">&nbsp;</span>
+            
             <p>
                 Legăturile de mai sus vor duce direct la pagina oficială, de unde pot fi descărcate sistemele de operare.
                 <br />

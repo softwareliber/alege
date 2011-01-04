@@ -26,6 +26,7 @@ $(document).ready(function(){
     });
     // Încarcă lightbox pentru poze
     $(".polaroid a").fancybox({
+        padding: 0,
         imageScale:true,
         hideOnContentClick:true,
         centerOnScroll:false,

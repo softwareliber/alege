@@ -91,6 +91,22 @@ ul#meniu li:hover {
     padding-left: 15px;
 }
 
+#corp .dialog.capturi {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#corp ul.capturi{
+    height: 235px;
+    overflow: hidden;
+    margin: -10px auto -5px;
+}
+
+#corp ul.capturi li{
+    padding-left: 0;
+    padding-top: 10px;
+}
+
 #corp ul.simplu > li{
     border: none;
 }
@@ -119,13 +135,6 @@ ul#meniu li:hover {
     height: 1px;
 }
 
-.dialog span.bordura_sus{
-    border-top: 1px solid #ddd;
-    clear: both;
-    display: block;
-    font-size: 1px;
-}
-
 .dialog ul.blocuri li .polaroid{
     padding: 5px;
     border: 1px solid #eee;
@@ -143,12 +152,12 @@ ul#meniu li:hover {
 
 img.left{
     float: left;
-    padding: 5px;
+    padding: 10px;
 }
 
 img.right{
     float: right;
-    padding: 5px;
+    padding: 10px;
 }
 
 #coada{
@@ -160,8 +169,8 @@ img.right{
 
 #coada .continut{
     width: 800px;
-    margin: 115px auto 10px;
-    font-size: 9px;
+    margin: 125px auto 10px;
+    font-size: 11px;
 }
 
 #liber{
@@ -175,7 +184,7 @@ img.right{
 /* Typogrphy */
 body{
     font-family: sans-serif;
-    color: #3E4142;
+    color: #444;
     font-size: 12px;
 }
 
@@ -277,12 +286,18 @@ ul#meniu li a{
 }
 
 .dialog ul.blocuri li .polaroid{
-    font-size: 10px;
-    text-align: center;
+    font-size: 12px;
+    text-align: left;
+}
+
+.dialog ul.blocuri li .polaroid h4{
+    display: inline;
 }
 
 .dialog ul.blocuri li .polaroid a img{
     border: 4px solid #ddd;
+    padding: 0;
+    margin-right: 10px;
 }
 
 .dialog ul.blocuri li .polaroid a:hover img{
@@ -376,4 +391,8 @@ ul#meniu li a{
 #corp div.ultimul {
     height: 50px;
     
+}
+
+#coada .continut a {
+    color: #444;
 }
