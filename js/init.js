@@ -25,7 +25,7 @@ $(document).ready(function(){
         duration:700
     });
     // Încarcă lightbox pentru poze
-    $(".polaroid a").fancybox({
+    $(".polaroid > a").fancybox({
         padding: 0,
         imageScale:true,
         hideOnContentClick:true,
